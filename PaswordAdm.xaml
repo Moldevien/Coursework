@@ -1,0 +1,14 @@
+﻿<Window x:Class="Coursework.PaswordAdm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework"
+        mc:Ignorable="d"
+        Title="PaswordAdm" Height="190" Width="400" ResizeMode="NoResize" Background="#FF484848">
+    <StackPanel>
+        <Label Content="Уведіть пароль адміністратора, для входу" Margin="10,10,10,10" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Times New Roman" Foreground="White"/>
+        <PasswordBox x:Name="pasword"  Height="40" Width="380" FontSize="20" FontFamily="Times New Roman" Foreground="White" Background="#FF282828" BorderBrush="{x:Null}"/>
+        <Button Content="Увійти" Height="40" Width="165" FontSize="20" Margin="0,10" Click="Button_Click" FontFamily="Times New Roman" Foreground="White" Background="#FF282828" BorderBrush="{x:Null}"/>
+    </StackPanel>
+</Window>
